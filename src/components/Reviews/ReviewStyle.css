@@ -1,0 +1,18 @@
+.ReviewContainer{
+    margin: 0 auto;
+}
+.ReviewList{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.ReviewContent{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.ReviewAuthor{
+    font-size: 18px;
+    font-weight: 400;
+}

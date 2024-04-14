@@ -1,0 +1,36 @@
+.header{
+    width: 100%;
+    background-color: rgba(190, 138, 16, 0.718);
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.navlink-wrapper{
+    display: flex;
+    width: 130px;
+    justify-content: space-between;
+}
+
+.Navlinks{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(216, 210, 207);
+}
+
+.linkActive {
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+ @media screen and (max-width: 1200px) {
+    .header-wrapper{
+        width: 80%;
+    }
+ 
+ }

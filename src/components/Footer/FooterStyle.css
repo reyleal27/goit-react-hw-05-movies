@@ -1,0 +1,14 @@
+.Footer{
+    width: 100%;
+}
+.FooterContainer {
+  width: 80%;
+  margin: 0 auto;
+  height: 30px;
+}
+.FooterText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}

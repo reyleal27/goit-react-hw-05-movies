@@ -1,0 +1,17 @@
+.LoadMoreContainer{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.LoadMoreButton {
+    width: 100px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(65, 65, 204);
+    color: wheat;
+    font-weight: 600;
+    cursor: pointer;
+}
+
