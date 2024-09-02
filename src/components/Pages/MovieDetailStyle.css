@@ -27,7 +27,6 @@
 
 .MovieDetails {
     display: flex;
-    align-items: center;
     gap: 20px;
     margin-top: 20px;
 }
@@ -77,9 +76,36 @@
     padding: 0 10px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
     .MovieDetailsContainer {
-        display: flex;
+        width: auto;
+    }
+
+    .MovieDetails {
         flex-direction: column;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .movieDetailImg {
+        width: 250px;
+        height: 360px;
     }
 }
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+
+    .MovieDetails {
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+        .movieDetailImg{
+      width: 350px;
+      height: 500px;
+      margin-left: 10px;
+  }
+  .Overview{
+    width: 300px;
+  }
+};
