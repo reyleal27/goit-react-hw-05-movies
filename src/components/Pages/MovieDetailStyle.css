@@ -22,6 +22,10 @@
 .MovieDetailsContainer {
     margin: 0 auto;
     max-width: 1024px;
+  @media screen(max-width: 425px){
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .MovieDetails {
